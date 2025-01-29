@@ -77,5 +77,3 @@ export const signUp = async (params: AuthCredentials) => {
     return { success: false, error: "Signup error" };
   }
 };
-
-// 3:06:55
