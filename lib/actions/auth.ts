@@ -66,6 +66,8 @@ export const signUp = async (params: AuthCredentials) => {
       universityCard,
     });
 
+    // 3:43:37
+
     await signInWithCredentials({
       email,
       password,
