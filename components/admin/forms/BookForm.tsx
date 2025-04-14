@@ -162,7 +162,9 @@ const BookForm = ({ type, ...book }: Props) => {
               <FormLabel className="text-base font-normal text-dark-500">
                 Book Image
               </FormLabel>
-              <FormControl>{/* Image Uploader */}</FormControl>
+              <FormControl>
+                {/* 4:50:08 */}
+              </FormControl>
               <FormMessage />
             </FormItem>
           )}
