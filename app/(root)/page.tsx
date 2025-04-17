@@ -11,7 +11,7 @@ const Home = async () => {
   const latestBooks = (await db
     .select()
     .from(books)
-    .limit(1)
+    .limit(10)
     .orderBy(desc(books.createdAt))) as Book[];
 
   return (
