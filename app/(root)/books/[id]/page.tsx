@@ -21,7 +21,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
 
   return (
     <>
-      <BookOverview {...bookDetails} id={session?.user?.id as string} />
+      <BookOverview {...bookDetails} userId={session?.user?.id as string} />
 
       <div className="book-details">
         <div className="flex-[1.5]">
@@ -40,8 +40,6 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
             </div>
           </section>
         </div>
-
-        <div>{/* similar books */}</div>
       </div>
     </>
   );
